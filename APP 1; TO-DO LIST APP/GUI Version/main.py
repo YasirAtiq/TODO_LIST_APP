@@ -10,6 +10,7 @@ from Backend import *
 if os.path.exists("todo_list.txt"):
     with open("todo_list.txt", "w"):
         pass
+
 ##Time
 t = time()
 ##Elements:

@@ -1,0 +1,18 @@
+Index: APP 1; TO-DO LIST APP/GUI Version/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>### My Version of the app: TO-DO LIST\r\n### This is the GUI version Frontend\r\n##Importing...\r\nimport os\r\n\r\nimport PySimpleGUI as gui\r\n\r\nfrom Backend import *\r\n\r\nif os.path.exists(\"todo_list.txt\"):\r\n    with open(\"todo_list.txt\", \"w\"):\r\n        pass\r\n##Time\r\nt = time()\r\n##Elements:\r\n# Clock\r\nclock = gui.Text(t, key=\"c\")\r\n# Text Box\r\nInput = gui.InputText(tooltip=\"Enter Here:\", key=\"input\")\r\n# Label\r\nlabel = gui.Text(\"TO-DO Item:\")\r\n# List of TO-DOs\r\nlistbox = gui.Listbox(values=read_todos(), key=\"list\", enable_events=True, size=[45, 10])\r\n# Buttons:\r\n# a. Add Button\r\nadd = gui.Button(\"Add\")\r\n# b. Edit Button\r\nedit = gui.Button(\"Edit\")\r\n# c. Complete Button\r\ncomplete = gui.Button(\"Complete\")\r\n# d. Exit Button\r\nexit = gui.Button(\"Exit\")\r\n##Layout of the window\r\nlayout = [[clock], [label], [Input, add], [listbox, edit, complete, exit]]\r\n\r\n##Main Window\r\nwindow = gui.Window(\"TO-DO LIST APP\",\r\n                  layout=layout,\r\n                  font=(\"Comic Sans MS\", 16))\r\n\r\n##Main program\r\nwhile True:\r\n    ##Getting event and values\r\n    event, val = window.read(timeout=200)\r\n    window[\"c\"].update(value=time())\r\n    match event:\r\n        case \"Add\":\r\n            ##Defining what happens when \"Add\" button is pressed.\r\n            todos = read_todos()\r\n            new_todo = val[\"input\"] + \"\\n\"\r\n            todos.append(new_todo)\r\n            modifying_todo(todos)\r\n            window[\"list\"].update(values=todos)\r\n            window[\"c\"].update(value=time())\r\n        case \"Edit\":\r\n            ##Defining what happens when \"Edit\" button is pressed.\r\n            todos = read_todos()\r\n            todo_edit = val[\"list\"][0]\r\n            new_todo = val[\"input\"]\r\n            todos.append(new_todo)\r\n            index = todos.index(todo_edit)\r\n            todos[index] = new_todo\r\n            modifying_todo(todos)\r\n            window[\"list\"].update(values=todos)\r\n            window[\"c\"].update(value=time())\r\n        case \"Complete\":\r\n            ##Defining what happens when \"Complete\" button is pressed.\r\n            todos = read_todos()\r\n            todo_delete = val[\"list\"][0]\r\n            todos.remove(todo_delete)\r\n            modifying_todo(todos)\r\n            window[\"list\"].update(values=todos)\r\n            window[\"c\"].update(value=time())\r\n\r\n        case \"list\":\r\n            ##Making the selected object in list in the todo \r\n            window[\"input\"].update(value=val['list'][0])\r\n            window[\"c\"].update(value=time())\r\n\r\n        case gui.WIN_CLOSED:\r\n            break\r\n\r\n        case \"Exit\":\r\n            break\r\n\r\n##When closed\r\nwindow.close()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/APP 1; TO-DO LIST APP/GUI Version/main.py b/APP 1; TO-DO LIST APP/GUI Version/main.py
+--- a/APP 1; TO-DO LIST APP/GUI Version/main.py	(revision 638643387de128e6ec405f8d5503eafa93254713)
++++ b/APP 1; TO-DO LIST APP/GUI Version/main.py	(date 1696076441898)
+@@ -10,6 +10,7 @@
+ if os.path.exists("todo_list.txt"):
+     with open("todo_list.txt", "w"):
+         pass
++
+ ##Time
+ t = time()
+ ##Elements:
