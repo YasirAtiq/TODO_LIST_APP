@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Final Touch" />
+    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Final Touch">
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,10 +54,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv" />
-      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv\Lib" />
-      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\GUI Version" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\GUI Version" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv\Lib" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,6 +102,7 @@
       <workItem from="1695969439120" duration="1200000" />
       <workItem from="1695990200364" duration="3248000" />
       <workItem from="1696071524767" duration="5175000" />
+      <workItem from="1696082004689" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Errors">
       <option name="closed" value="true" />
@@ -221,7 +224,39 @@
       <option name="project" value="LOCAL" />
       <updated>1696076623159</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Final Touch">
+      <option name="closed" value="true" />
+      <created>1696082065293</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696082065293</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Final Touch">
+      <option name="closed" value="true" />
+      <created>1696082151363</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696082151363</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Final Touch">
+      <option name="closed" value="true" />
+      <created>1696082329742</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696082329742</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Final Touch">
+      <option name="closed" value="true" />
+      <created>1696082346204</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696082346204</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
