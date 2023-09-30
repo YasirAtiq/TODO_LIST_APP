@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Making executable program of the app">
+      <change afterPath="$PROJECT_DIR$/Backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo_list.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Executable program.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exe/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/Command-line Version/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Command-line Version/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/Command-line Version/todo_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Command-line Version/todo_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/Backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Code_Excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/Code_Excercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/todo_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/todo_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/main" />
@@ -55,6 +67,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Yasir/PycharmProjects/APP_1-TODO_LIST_APP/APP 1; TO-DO LIST APP/Web Version",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,9 +76,13 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\Web Version" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\GUI Version" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1 TO-DO LIST APP\Web Version" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\GUI Version" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv\Lib" />
     </key>
@@ -265,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696098014929</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Making executable program of the app">
+      <option name="closed" value="true" />
+      <created>1696099193247</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696099193247</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +314,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/APP_1_TODO_LIST_APP$Backend.coverage" NAME="Backend Coverage Results" MODIFIED="1696093980115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version" />
     <SUITE FILE_PATH="coverage/APP_1_TODO_LIST_APP$Code_Excercise.coverage" NAME="Code_Excercise Coverage Results" MODIFIED="1696075923425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version" />
-    <SUITE FILE_PATH="coverage/APP_1_TODO_LIST_APP$main.coverage" NAME="main Coverage Results" MODIFIED="1696094000879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version" />
+    <SUITE FILE_PATH="coverage/APP_1_TODO_LIST_APP$main.coverage" NAME="main Coverage Results" MODIFIED="1696100641041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version" />
   </component>
 </project>
