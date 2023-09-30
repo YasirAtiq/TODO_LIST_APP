@@ -3,7 +3,7 @@
 from datetime import datetime as dt
 
 ##FILEPATH
-FILEPATH = "APP 1; TO-DO LIST APP/GUI Version/todo_list.txt"
+FILEPATH = "todo_list.txt"
 
 
 ##Defining
