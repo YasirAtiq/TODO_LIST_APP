@@ -1,10 +1,15 @@
 ### My Version of the app: TO-DO LIST
 ### This is the GUI version Frontend
 ##Importing...
+import os
+
 import PySimpleGUI as gui
 
 from Backend import *
 
+if os.path.exists("todo_list.txt"):
+    with open("todo_list.txt", "w"):
+        pass
 ##Time
 t = time()
 ##Elements:
