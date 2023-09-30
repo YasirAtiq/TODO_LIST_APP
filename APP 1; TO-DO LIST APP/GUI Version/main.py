@@ -9,7 +9,7 @@ import Backend
 
 ##Making the interface standalone
 if not os.path.exists("todo_list.txt"):
-    with open("exe/todo_list.txt", "w"):
+    with open("todo_list.txt", "x"):
         pass
 
 ##Time

@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Making executable program of the app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Executable program.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exe/main.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +30,11 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Backend.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Code_Excercise.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -41,26 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv" />
-      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv\Lib" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\GUI Version" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv\Lib" />
     </key>
   </component>
   <component name="RunManager">
@@ -234,7 +241,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696097067425</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Making executable program of the app">
+      <option name="closed" value="true" />
+      <created>1696097961082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696097961082</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Making executable program of the app">
+      <option name="closed" value="true" />
+      <created>1696097991585</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696097991585</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Making executable program of the app">
+      <option name="closed" value="true" />
+      <created>1696098014929</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696098014929</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +273,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fixing Errors" />
     <MESSAGE value="Code_Exercise" />
     <MESSAGE value="Implementing &quot;Complete&quot; and &quot;Exit&quot; buttons" />
