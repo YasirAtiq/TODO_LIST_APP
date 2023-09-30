@@ -58,7 +58,7 @@ while True:
             ##Defining what happens when "Edit" button is pressed.
             todos = Backend.read_todos()
             todo_edit = val["list"][0]
-            new_todo = val["input"]
+            new_todo = val["input"] + "\n"
             todos.append(new_todo)
             index = todos.index(todo_edit)
             todos[index] = new_todo

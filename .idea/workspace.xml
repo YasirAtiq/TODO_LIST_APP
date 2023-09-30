@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Making executable program of the app">
-      <change afterPath="$PROJECT_DIR$/Backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list.txt" afterDir="false" />
+    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Making title, input_label and subtitles and adding checkboxes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/Command-line Version/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Command-line Version/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/Command-line Version/todo_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Command-line Version/todo_list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/Backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Code_Excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/Code_Excercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/todo_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/todo_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/Backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/todo_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "YasirAtiq"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8a6c82c3-61a1-4eb9-b771-e2c332683820" />
+        <option name="url" value="https://github.com/YasirAtiq/APP_1-TODO_LIST_APP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/Code_Excercise.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/APP 1; TO-DO LIST APP/GUI Version/main.py" root0="FORCE_HIGHLIGHTING" />
@@ -59,22 +68,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Yasir/PycharmProjects/APP_1-TODO_LIST_APP/APP 1; TO-DO LIST APP/Web Version",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Yasir/PycharmProjects/APP_1-TODO_LIST_APP/APP 1; TO-DO LIST APP/Web Version&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\Web Version" />
@@ -296,6 +305,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -306,7 +326,8 @@
     <MESSAGE value="Code Exercise" />
     <MESSAGE value="Final Touch" />
     <MESSAGE value="Making executable program of the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making executable program of the app" />
+    <MESSAGE value="Making title, input_label and subtitles and adding checkboxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making title, input_label and subtitles and adding checkboxes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
