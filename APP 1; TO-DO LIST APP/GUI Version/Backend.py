@@ -9,7 +9,7 @@ def read_todos(filepath=FILEPATH):
             return local_todo
         # Creating an empty TO-DO LIST
     except FileNotFoundError:
-        print(f"The {filepath} file was not founds")
+        print(f"The {filepath} file was not found.")
         return []
 
 
