@@ -25,6 +25,8 @@ def valid(text):
 
 
 ###Elements:
+##Making the window black-themed
+gui.theme("black")
 ##Labels
 # "Enter feet: " label
 feet_label = gui.Text("Enter feet: ")
@@ -39,11 +41,15 @@ feet_input = gui.InputText(key="feet")
 # Inches input
 inches_input = gui.InputText(key="inches")
 
-##Conver button
+##Buttons
+# Convert Button
 convert_button = gui.Button("Convert")
 
+# Exit Button
+exit_button = gui.Button("Exit")
+
 ##Layout
-layout = [[feet_label, feet_input], [inches_label, inches_input], [convert_button, output_label]]
+layout = [[feet_label, feet_input], [inches_label, inches_input], [convert_button, exit_button, output_label]]
 
 ##Window
 window = gui.Window("Convertor", layout=layout, font=("Comic Sans MS", 16))
@@ -57,7 +63,12 @@ while True:
                 feet = float(value["feet"])
                 inches = float(value["inches"])
                 m = convert(feet, inches)
-                window["output"].update(value=m)
+                window["output"].update(value=f"{m}m")
+
+        case "Exit":
+            break
+
         case gui.WIN_CLOSED:
             break
+
 window.close()
