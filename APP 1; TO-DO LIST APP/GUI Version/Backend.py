@@ -1,6 +1,12 @@
+###Backend of the GUI verson of TO_DO LIST APP
+##Importing...
+from datetime import datetime as dt
+
+##FILEPATH
 FILEPATH = "todo_list.txt"
 
 
+##Defining
 # Reading TO-DO LIST
 def read_todos(filepath=FILEPATH):
     try:
@@ -17,3 +23,10 @@ def read_todos(filepath=FILEPATH):
 def modifying_todo(todo_arg, filepath=FILEPATH):
     with open(filepath, "w") as file:
         file.writelines(todo_arg)
+
+
+# Time
+def time():
+    now = dt.now()
+    a = now.strftime("%c")
+    return a

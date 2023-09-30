@@ -5,7 +5,11 @@ import PySimpleGUI as gui
 
 from Backend import *
 
+##Time
+t = time()
 ##Elements:
+# Clock
+clock = gui.Text(t, key="c")
 # Text Box
 Input = gui.InputText(tooltip="Enter Here:", key="input")
 # Label
@@ -22,7 +26,7 @@ complete = gui.Button("Complete")
 # d. Exit Button
 exit = gui.Button("Exit")
 ##Layout of the window
-layout = [[label], [Input, add], [listbox, edit, complete, exit]]
+layout = [[clock], [label], [Input, add], [listbox, edit, complete, exit]]
 
 ##Main Window
 window = gui.Window("TO-DO LIST APP",
@@ -32,9 +36,8 @@ window = gui.Window("TO-DO LIST APP",
 ##Main program
 while True:
     ##Getting event and values
-    event, val = window.read()
-    print(event)
-    print(val)
+    event, val = window.read(timeout=200)
+    window["c"].update(value=time())
     match event:
         case "Add":
             ##Defining what happens when "Add" button is pressed.
@@ -43,6 +46,7 @@ while True:
             todos.append(new_todo)
             modifying_todo(todos)
             window["list"].update(values=todos)
+            window["c"].update(value=time())
         case "Edit":
             ##Defining what happens when "Edit" button is pressed.
             todos = read_todos()
@@ -53,6 +57,7 @@ while True:
             todos[index] = new_todo
             modifying_todo(todos)
             window["list"].update(values=todos)
+            window["c"].update(value=time())
         case "Complete":
             ##Defining what happens when "Complete" button is pressed.
             todos = read_todos()
@@ -60,10 +65,12 @@ while True:
             todos.remove(todo_delete)
             modifying_todo(todos)
             window["list"].update(values=todos)
+            window["c"].update(value=time())
 
         case "list":
             ##Making the selected object in list in the todo 
             window["input"].update(value=val['list'][0])
+            window["c"].update(value=time())
 
         case gui.WIN_CLOSED:
             break
