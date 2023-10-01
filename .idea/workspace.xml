@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Implementing removing the TO-DO item.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/Backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/todo_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list.txt" afterDir="false" />
-    </list>
+    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Implementing removing the TO-DO item." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,8 +86,8 @@
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\Web Version" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1 TO-DO LIST APP\Web Version" />
+      <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\APP 1; TO-DO LIST APP\GUI Version" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv" />
       <recent name="C:\Users\Yasir\PycharmProjects\APP_1-TODO_LIST_APP\venv\Lib" />
@@ -141,7 +135,7 @@
       <workItem from="1695969439120" duration="1200000" />
       <workItem from="1695990200364" duration="3248000" />
       <workItem from="1696071524767" duration="5175000" />
-      <workItem from="1696157249403" duration="3665000" />
+      <workItem from="1696157249403" duration="4009000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Errors">
       <option name="closed" value="true" />
@@ -319,7 +313,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696157353741</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Implementing removing the TO-DO item.">
+      <option name="closed" value="true" />
+      <created>1696162669570</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696162669570</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Implementing removing the TO-DO item.">
+      <option name="closed" value="true" />
+      <created>1696162721081</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696162721081</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Implementing removing the TO-DO item.">
+      <option name="closed" value="true" />
+      <created>1696162846532</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696162846532</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
