@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Making title, input_label and subtitles and adding checkboxes">
+    <list default="true" id="c72deda8-2324-4b38-a7a6-9227f9d1f802" name="Changes" comment="Implementing removing the TO-DO item.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/GUI Version/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/Backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP 1 TO-DO LIST APP/Web Version/todo_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -136,6 +141,7 @@
       <workItem from="1695969439120" duration="1200000" />
       <workItem from="1695990200364" duration="3248000" />
       <workItem from="1696071524767" duration="5175000" />
+      <workItem from="1696157249403" duration="3665000" />
     </task>
     <task id="LOCAL-00001" summary="Fixing Errors">
       <option name="closed" value="true" />
@@ -305,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696142364793</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Implementing removing the TO-DO item.">
+      <option name="closed" value="true" />
+      <created>1696157353741</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696157353741</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +347,8 @@
     <MESSAGE value="Final Touch" />
     <MESSAGE value="Making executable program of the app" />
     <MESSAGE value="Making title, input_label and subtitles and adding checkboxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making title, input_label and subtitles and adding checkboxes" />
+    <MESSAGE value="Implementing removing the TO-DO item." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing removing the TO-DO item." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

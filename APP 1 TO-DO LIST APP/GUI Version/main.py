@@ -22,7 +22,8 @@ Input = gui.InputText(tooltip="Enter Here:", key="input")
 # Label
 label = gui.Text("TO-DO Item:")
 # List of TO-DOs
-listbox = gui.Listbox(values=Backend.read_todos(), key="list", enable_events=True, size=[45, 10])
+listbox = gui.Listbox(values=Backend.read_todos(), key="list",
+                      enable_events=True, size=[45, 10])
 # Buttons:
 # a. Add Button
 add = gui.Button("Add")
@@ -31,9 +32,10 @@ edit = gui.Button("Edit")
 # c. Complete Button
 complete = gui.Button("Complete")
 # d. Exit Button
-exit = gui.Button("Exit")
+exit_button = gui.Button("Exit")
 ##Layout of the window
-layout = [[clock], [label], [Input, add], [listbox, edit, complete, exit]]
+layout = [[clock], [label], [Input, add],
+          [listbox, edit, complete, exit_button]]
 
 ##Main Window
 window = gui.Window("TO-DO LIST APP",
